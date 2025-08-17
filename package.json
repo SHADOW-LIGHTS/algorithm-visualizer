@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "watchify /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/board.js -o /home/clement/Documents/Fullstack_Academy/Projects/Pathfinding_Algorithms/public/browser/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
   }
 }
